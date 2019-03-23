@@ -1,0 +1,150 @@
+{
+	"id": "a91b26ea-6d9f-0bae-a5cc-2e4bea0938d8",
+	"name": "Node",
+	"description": "",
+	"order": [
+		"8d9e8bc9-df60-5f6e-fe4c-813a164cc06e",
+		"916f6a94-179f-97ae-c6ac-0c1ddb4bb1bc",
+		"c6eef6aa-c192-cf18-7acf-e4948a4ed95f",
+		"03c42f4b-d074-c0de-6d89-586c2c64d1c6"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1553312480321,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "03c42f4b-d074-c0de-6d89-586c2c64d1c6",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:5300/products/5c95a9e94cf7813ec4cd9db8/delete",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "a91b26ea-6d9f-0bae-a5cc-2e4bea0938d8",
+			"data": null,
+			"dataMode": "params",
+			"name": "Delete",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553312921860,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "8d9e8bc9-df60-5f6e-fe4c-813a164cc06e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:5300/products/create",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a91b26ea-6d9f-0bae-a5cc-2e4bea0938d8",
+			"data": [
+				{
+					"key": "name",
+					"value": "apple",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "15",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Create",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553312483690,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "916f6a94-179f-97ae-c6ac-0c1ddb4bb1bc",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:5300/products/5c95a9e94cf7813ec4cd9db8",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a91b26ea-6d9f-0bae-a5cc-2e4bea0938d8",
+			"data": null,
+			"dataMode": "params",
+			"name": "Read",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553312756745,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c6eef6aa-c192-cf18-7acf-e4948a4ed95f",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:5300/products/5c95a9e94cf7813ec4cd9db8/update",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "a91b26ea-6d9f-0bae-a5cc-2e4bea0938d8",
+			"data": [
+				{
+					"key": "name",
+					"value": "apple2",
+					"description": ""
+				},
+				{
+					"key": "price",
+					"value": "17",
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Update",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553312907292,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
